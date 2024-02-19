@@ -18,6 +18,10 @@ ul {
     color: #000;
 }
 
+#bar {
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -93,6 +97,14 @@ a {
     text-align: center;
 }
 
+#btn {
+    background-color: #f5204b;
+    color: #fff;
+    border: none;
+    width: 130px;
+    height: 40px;
+}
+
 .container-2 {
     width: 100%;
     display: flex;
@@ -153,44 +165,50 @@ a {
     font-size: 24px;
     color: #f5204b;
 }
-.top-content{
+
+.top-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
 }
-.top-content h1{
+
+.top-content h1 {
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     color: #222222;
     margin-bottom: 12px;
 }
-.top-content p{
+
+.top-content p {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     line-height: 24px;
     color: #777777;
     margin-bottom: 0px;
- 
+
 }
-.down-content{
+
+.down-content {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 20px 0px;
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
 }
-.down-content h2{
+
+.down-content h2 {
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #222222;
     margin-bottom: 15px;
 }
-.down-content span{
+
+.down-content span {
     display: inline-block;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
@@ -199,31 +217,36 @@ a {
     position: relative;
     top: 9px;
 }
-.down-content button{
+
+.down-content button {
     width: 80px;
     height: 30px;
     background-color: #f5204b;
     color: #fff;
     border: none;
 }
-p{
+
+p {
     text-align: center;
 }
-.dem{
+
+.dem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
 }
-.dem h1{
+
+.dem h1 {
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     color: #222222;
     margin-bottom: 12px;
 }
-.dem p{
+
+.dem p {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
@@ -231,13 +254,15 @@ p{
     color: #777777;
     margin-bottom: 0px;
 }
-.container-3{
+
+.container-3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-left: 80px;
 }
-.box button{
+
+.box button {
     max-width: 115px;
     height: 40px;
     padding: 0px;
@@ -248,4 +273,65 @@ p{
     position: relative;
     top: -70px;
     left: 75px;
+}
+
+@media (max-width: 991px) {
+    ul {
+        display: none;
+    }
+
+    #bar {
+        display: block;
+        font-size: 30px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-between;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        padding-top: 300px;
+    }
+
+    .in-content {
+        flex-direction: column;
+    }
+
+    .down-content {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .container-3 {
+        flex-direction: column;
+    }
+
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .content-1 {
+        width: 80%;
+    }
+
+    .content {
+        text-align: center;
+        align-items: center;
+        position: relative;
+        top: 50px;
+    }
+
+    .right-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .top-content {
+        align-items: center;
+        text-align: center;
+    }
 }
