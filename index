@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png.webp" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Real State Multi</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./images/logo.webp" alt="">
+        <nav>
+            <ul>
+                <li><a style="color: #f5204b;;" href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PROPERTIES</a></li>
+                <li><a href="">TEAM</a></li>
+                <li><a href="">PAGES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-1">
+        <div class="content">
+            <h2>THE JOY OF HOME OWNING</h2>
+            <h1>Find Your New Home</h1>
+            <button>Learn More</button>
+        </div>
+        <div class="content-1">
+            <h2>Search Properties for</h2>
+            <form action="">
+                <input type="text" name="" id="" placeholder="choose location "><br />
+                <input type="text" name="" id="" placeholder="property type"><br />
+                <input type="text" placeholder="Bedrooms"><br />
+                <input type="text" name="" id="" placeholder="bathrooms"><br />
+                <label for="price range">price Range<br />
+                    <input type="range">
+                </label><br />
+                <label for="price range">property area<br />
+                    <input type="range">
+                </label><br />
+            </form>
+            <button>Search property</button>
+        </div>
+    </div>
+    <section>
+        <div class="container-2">
+            <div class="left-content">
+                <img src="./images/welcome-1.webp" alt="">
+            </div>
+            <div class="right-content">
+                <h1>Welcome to SEL Center</h1>
+                <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct
+                    standards
+                    especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is
+                    beyond
+                    reproach. inappropriate behavior is often laughed.
+
+                </p>
+                <div class="in-content">
+                    <div class="total"><i class="fa-solid fa-book"></i>
+                        <h2>$2.5M</h2>
+                        <p>Total <br /> Donation</p>
+                    </div>
+                    <div class="total"><i class="fa-solid fa-book"></i>
+                        <h2>1465</h2>
+                        <p>Total <br /> projects</p>
+                    </div>
+                    <div class="total"><i class="fa-solid fa-money-bill"></i>
+                        <h2>3965</h2>
+                        <p>Total <br /> Volunteers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="top-content">
+            <h1>Our Top Rated Properties</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+        <div class="down-content">
+            <div class="bed"><img src="./images/pp-1.jpg" alt="">
+                <h2>04 Bed Duplex</h2><span>Total: $3.5M</span> <button>For Sale</button>
+            </div>
+            <div class="bed"><img src="./images/pp-2.jpg" alt="">
+                <h2>04 Bed Duplex</h2><span>Total: $3.5M</span> <button>For Sale</button></div>
+            <div class="bed"><img src="./images/pp-3.jpg" alt="">
+                <h2>04 Bed Duplex</h2><span>Total: $3.5M</span> <button>For Sale</button></div>
+        </div>
+    </section>
+</body>
+
+</html>
